@@ -1,0 +1,288 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh ;
+    /* background-position: center; */
+}
+.container-fluid{
+    background-color: transparent;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar-brand h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+#sp1{
+     color: #f7b71d
+}
+.nav-item h3 {
+    font-size: 18px;   
+    gap: 10px;
+    color: white;
+}
+.nav-item:hover h3{
+    cursor: pointer;
+    color: #f7b71d;
+
+}
+.content{
+    /* border: 2px solid black; */
+    /* height: 550px; */
+    /* grid-column: 1/3; */
+    color: white;
+    margin-left: 160px;
+}
+button{
+    background-color: #f7b71d;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.content h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+}
+.content h3{
+    font-family:"Poppins", sans-serif ;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.playbutton{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.fa-circle-play{
+    /* width: 150px; */
+    font-size: 50px;
+    color: #f7b71d;
+}
+.content hr{
+    padding-left: 35px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.line{
+    border: 2px solid grey;
+    height: 3px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.content h4{
+    font-size: 18px;
+    font-family:"Poppins", sans-serif ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.content{
+    /* border: 2px solid black; */
+}
+.loginpage{
+    background-color: white;
+    width:100%;
+    border-radius: 5px;
+    height:500px;
+}
+.loginpage h3{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 20px; */
+
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+/* .dropdown-toggle{
+    color: #f7b71d;
+} */
+/* Button text */
+.dropdown-toggle {
+  color: rgb(0, 12, 0) !important;   /* text color */
+}
+
+/* Caret icon */
+.dropdown-toggle::after {
+  border-top-color: #f7b71d !important; 
+}
+
+.input{
+    /* margin-left: 350px; */
+    /* width: 65%; */
+    /* margin: auto; */
+
+    margin-top: 50px;
+    /* border: 2px solid rgb(203, 54, 54); */
+    
+}
+.div1{
+    height: 100px;
+}
+.services{
+    /* border: 2px solid black; */
+    /* height: 400px; */
+}
+#our{
+    color: #f7b71d;
+}
+.services h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+i{
+    color: #f7b71d;
+}
+#car{
+    color:#f7b71d;
+    font-size: 18px;
+}
+.cardetails h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#sp2{
+    color: #f7b71d;
+    font-size: 30px;
+}
+.carcard{
+    margin-top: 50px;
+}
+#sp3{
+    color: grey;
+    font-size: 12px;
+}
+#sp4{
+    font-size: 12px;
+    color: #0c0c0b;
+    margin-right: 4px;
+}
+#or{
+    font-size: 10px;
+    color: white;
+}
+.m{
+    /* height: 600px; */
+    /* border: 5px solid green; */
+}
+.card1 img{
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 20px;
+}
+.cards{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.a h5{
+    color: #f7b71d;
+    font-weight: bold;
+    font-size: 13px;
+} 
+.a h1{
+    font-weight: bold;
+}
+.a h4{
+    font-weight: 400;
+    color: grey;
+    font-size: 18px;
+}
+.a button{
+    padding: 5px;
+    border-radius: 5px;
+}
+.a button:hover{
+    cursor: pointer;
+}
+.b{
+    /* border: 2px solid black; */
+    width: auto;
+    
+}
+.c{
+    height: 200px;
+}
+.d h6{
+    color: grey;
+    font-size: 13px;
+}
+.d h3{
+    font-size: 22px;
+    line-height: 30px;
+}
+.d h5{
+    font-size: 18px;
+    color: grey;
+}
+
+@media  (max-width: 991px) {
+    .navbar {
+        background-color: #0c0c0b; /* or any color you want */
+    }
+    .navbar-toggler {
+    border-color: #f7b71d; /* border color of the button */
+    color: white;
+}
+.content h1{
+    font-size: 32px;
+}
+.content h3{
+    font-size: 15px;
+}
+.content h4{
+    font-size: 15px;
+}
+.loginpage label{
+    font-size: 10px;
+}
+.card {
+    /* border: 2px solid black; custom border */
+    border-radius: 10px;    /* optional rounded corners */
+}
+.e{
+    background-color: #0c0c0b;
+    height: 500px;
+    /* border: 2px solid orange; */
+}
+
+.card-text p{
+    font-size: 150px;
+}
+#abb {
+    color: white;
+}
+#space{
+    padding-left: 10px;
+}
+}
+@media  (max-width:1400px) {
+    .content{
+        margin-left: 80px;
+    }
+}
+@media (max-width:771px){
+    .bg{
+        height:120vh;
+    }
+    /* .loginpage{
+        margin-left: 80px;
+    } */
+     
+}
+
+   
