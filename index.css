@@ -214,6 +214,9 @@ i{
     width: auto;
     
 }
+.b img{
+    width: 400px;
+}
 .c{
     height: 200px;
 }
@@ -284,5 +287,10 @@ i{
     } */
      
 }
-
+@media (max-width:375px) {
+    .b img{
+        width: 250px;
+        height: 300px;
+    }
+}
    
